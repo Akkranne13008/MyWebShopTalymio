@@ -1,0 +1,116 @@
+.img-circle{
+    border-radius:20%
+    width: 350px;
+    height: 350px;
+}
+.img-produit-mug:hover {
+  content: 'Text affiche lors du hover';
+}
+
+.img-produit-mug{
+
+    overflow:hidden;
+
+    width: 400px;
+    height: 400px;
+}
+.img-produit-mug-red{
+    position:relative;
+    left:18%;
+    overflow:hidden;
+    border-radius:200px;
+    width: 250px;
+    height: 250px;
+}
+.img-produit-mug-red:hover{
+    position:relative;
+    left:18%;
+    overflow:hidden;
+    border-radius:200px;
+    width: 270px;
+    height: 270px;
+}
+.img-produit-mug-b{
+    position:relative;
+    left:28%;
+    overflow:hidden;
+    border-radius:200px;
+    width: 250px;
+    height: 250px;
+}
+.img-produit-mug-b:hover{
+    position:relative;
+    left:28%;
+    overflow:hidden;
+    border-radius:200px;
+    width: 270px;
+    height: 270px;
+}
+.img-produit-mug-y{
+    position:relative;
+    left:38%;
+    overflow:hidden;
+    border-radius:200px;
+    width: 250px;
+    height: 250px;
+}
+.img-produit-mug-y:hover{
+    position:relative;
+    left:38%;
+    overflow:hidden;
+    border-radius:200px;
+    width: 270px;
+    height: 270px;
+}
+
+
+
+
+a.bouton2 {
+        font-family: Verdana;
+    position:relative;
+    left:28%;
+    padding: 25px 45px;
+    background: #C45DFC;
+    color: black;
+    font-size: 28px;
+    border-radius: 85px;
+    text-decoration:none;
+}
+a.bouton2:hover {
+background: #5D3A70;
+color: black;
+
+}
+h1{
+  
+    padding: 25px 45px;
+    background: #C45DFC;
+    color: black;
+    font-size: 28px;
+    border-radius: 50px;
+    text-decoration:none;
+    font-family: Calibri; 
+}
+h2{
+    font-family: Calibri; 
+    font-style: italic
+
+    line-height: 20px;
+    padding: 35px 55px;
+    background: #C45DFC;
+    color: black;
+    font-size: 25px;
+    text-decoration:none;
+}
+h3{
+        position:relative;
+    left:0%;
+       padding: 20px 30px;
+    background: #C45DFC;
+    color: black;
+    font-size: 25px;
+    border-radius: 50px;
+    text-decoration:none;
+    font-family: Calibri;  
+}

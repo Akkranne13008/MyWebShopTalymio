@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <body style="background-image: url(https://image.noelshack.com/fichiers/2019/39/5/1569617256-background.png);">
+     	  <link rel="stylesheet" href="css/MeContacter/style.css">
+		<center><img src="images/logo.png"class="img-circle" alt=""></img></center>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<a href="index.html" class="bouton2">Accueil</a>
+		<a href="boutique.html" class="bouton2">Boutique</a>
+		<a href="FAQ.html" class="bouton2">FAQ</a>
+		<a href="MeContacter.html" class="bouton2">Me Contacter</a>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #C45DFC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #C45DFC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #C45DFC;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5D3A70;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<br>
+<br>
+<br><br>
+<br>
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+
+    <h1 for="fname">Prénom</h1>
+    <input type="text" id="fname" name="firstname" placeholder="Votre prénom..">
+
+    <h1 for="lname">Nom</h1>
+    <input type="text" id="lname" name="lastname" placeholder="Votre nom..">
+
+
+    <h1 for="lname">E-mail</h1>
+    <input type="email" id="lname" name="lastname" placeholder="Votre E-mail..">
+
+    <h1 for="country">Sexe</h1>
+    <select id="country" name="country">
+      <option value="australia">Homme</option>
+      <option value="canada">Femme</option>
+      <option value="usa">Non-Binnaire</option>
+    </select>
+    <h1 for="country">Pays</h1>
+    <select id="country" name="country">
+      <option value="australia">France</option>
+      <option value="canada">Belgique</option>
+      <option value="usa">Suisse</option>
+      <option value="usa">Canada</option>
+    </select>
+
+    <h1 for="subject">Information</h1>
+    <textarea id="subject" name="subject" placeholder="Écris quelque chose.." style="height:150px"></textarea>
+
+    <input type="submit" value="Soumettre">
+  </form>
+</div>
+<center><h2>Copyright TeloziaShop © 2019 | Tous droits réservés.</h2></center>
+</body>
+</html>
